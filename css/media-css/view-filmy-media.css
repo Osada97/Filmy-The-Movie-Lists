@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px){
+	.cover{
+		height: 50%;
+	}
+	.movie_main_row{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.movie_main_row .movie_main_column:first-child{
+		flex: 1;
+	}
+	.movie_main_row .movie_main_column:last-child{
+		padding-top: 15px;
+		flex: 3;
+	}
+	.movie_main_row .movie_main_column .download_button{
+		margin-top: 50px;
+	}
+	.movie_main_row .movie_main_column .download_button button{
+		margin-top: 20px;
+	}
+	.main_section_container{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 1000px){
+	.movie_trailer_container{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 762px){
+	.cover{
+		height: 100vh;
+	}
+	header .column:nth-child(2),.column:nth-child(3){
+		display: none;
+	}
+	header .mob_nav{
+		display: block;
+	}
+	.movie_main_row{
+		position: relative;
+		width: 90%;
+		height: 100%;
+		display: block;
+		margin-top: -350px;
+		bottom: initial;
+		z-index: 99;
+
+	}
+	.movie_main_row .movie_main_column .movie_poster img{
+		height: 400px;
+	}
+	.movie_main_row .movie_main_column:first-child{
+		width: 290px;
+		margin: 0 auto;
+	}
+	.movie_main_row .movie_main_column:last-child{
+		width: 100%;
+	}
+	.movie_main_row .movie_main_column:last-child h1{
+		color: #000;
+		white-space: normal;
+	}
+	.movie_main_row .movie_main_column:last-child h1 span{
+		color: #696363;
+	}
+	.movie_main_row .movie_main_column:last-child h3{
+		color: #000;
+	}
+	.movie_main_row .movie_main_column:last-child ul li a{
+		color: #696363;
+	}
+	.main_section_container{
+		margin: 0;
+		margin-top: 50px;
+		flex-wrap: wrap;
+	}
+
+}
+@media screen and (max-width: 573px){
+	.main_section_container{
+		display: block;
+	}
+	.main_section_container{
+		width: 95%;
+	}
+	.movie_trailer_container .trailer_column{
+		padding: 192px 0;
+	}
+}
+@media screen and (max-width: 321px){
+	.movie_main_row .movie_main_column:first-child{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.main_section_container{
+		width: 100%;
+	}
+	.movie_trailer_container .trailer_column{
+		padding: 150px 0;
+	}
+	.like .like_main_row .popular_row1{
+		display: block;
+	}
+}
+@media screen and (max-width: 257px){
+	.main_section_container .main_de_column:last-child .details_sec{
+		padding: 10px;
+	}
+	.movie_trailer_container .trailer_column{
+		padding: 120px 0;
+	}
+	.like .like_main_row .popular_row2 .popular_column{
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+@media screen and (max-width: 176px){
+	.movie_trailer_container{
+		display: none;
+	}
+}

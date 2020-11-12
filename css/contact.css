@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	overflow: auto;
+	display: flex;
+	justify-content: space-around;
+}
+header .column{
+	/* width: 406px;
+	float: left;
+	margin: 5px 50px; */
+}
+header .column:nth-child(1){
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: #9352b3;
+	text-shadow: 0px 0px 4px #9352b3;
+}
+header .column:nth-child(2){
+	text-align: center;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+header .column:nth-child(2) ul li{
+	display: inline-block;
+	margin-right: 32px;
+	line-height: 40px;
+}
+header .column:nth-child(2) ul li.active a{
+	color: #5200de;
+	transform: scale(1.02);
+	font-weight: 600;
+}
+header .column:nth-child(2) ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #aaa;
+	font-weight: normal;
+	transition: 0.3s;
+}
+header .column:nth-child(2) ul li:hover a{
+	color: #5200de;
+	transition: 0.5s ease 0s;
+}
+header .column:nth-child(3){
+	text-align: right;
+}
+header .column:nth-child(3) button{
+	width: 100px;
+	padding: 6px 10px;
+	border: none;
+	border-radius: 30px;
+	margin: 10px;
+	font-family: "Ubuntu" ,sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1.9px;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #9352b3;
+	color: #fff;
+	outline: none;
+	box-sizing: border-box;
+}
+header .mob_nav{
+	width: 50%;
+	display: none;
+	z-index: 100;
+}
+header .mob_nav button{
+	float: right;
+	overflow: auto;
+	padding: 5px;
+	border: none;
+	background: none;
+	font-size: 20px;
+	color: #000;
+	outline: none;
+	margin-top: 12px;
+}
+header .mob_nav ul{
+	position: absolute;
+	display: none;
+	width: 100%;
+	right: 0%;
+	top: 2%;
+	margin-top: 35px;
+	overflow: auto;
+	background-color: #fffffff2;
+	transition: all 0.5s;
+}
+header .mob_nav ul li{
+	display: block;
+	text-align: right;
+	padding: 10px 25px 10px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #aaa;
+	transition: all 0.5s;
+}
+header .mob_nav ul li:hover{
+	background-color: #eee;
+	transition: 0.5s ease;
+}
+header .mob_nav ul li a{
+	font-size: 18px;
+	font-family: "Ubuntu" ,sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+
+/*Top*/
+.top{
+	overflow: auto;
+	background-image:linear-gradient(to right,#460f62,#a9020261);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.top .top_main_row{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 45px;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: capitalize;
+}
+
+
+/*contact_con*/
+.contact_con{
+	margin: 31px 0; 
+	padding: 45px 0;
+}
+.contact_con .contact_con_main{
+	width: 1000px;
+	margin: 0 auto 80px;
+	overflow: auto;
+}
+.contact_con .contact_con_main .contact_con_des{
+	margin-bottom: 85px;
+}
+.contact_con .contact_con_main .contact_con_des p{
+	font-family: "Ubuntu" ,sans-serif;
+	margin-bottom: 30px;
+	text-align: justify;
+	letter-spacing: 1.2px;
+	font-weight: 200;
+	line-height: 35px;
+	font-size: 20px;
+}
+.contact_con .contact_con_main .contact_con_column{
+	width: 200px;
+	overflow: auto;
+	margin: 0px 25px;
+	padding: 20px 5px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	font-family: "ubuntu",sans-serif;
+}
+.contact_con .contact_con_main .contact_con_column i{
+	font-size: 30px;
+	margin-bottom: 25px;
+	color: #9352b3;
+	transition: 0.8s;
+}
+.contact_con .contact_con_main .contact_con_column h3{
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	line-height: 28px;
+	font-weight: 100;
+	color: #69656b;
+}
+.contact_con .contact_con_main .contact_con_column:hover i{
+	transform: scaleX(-1);
+	transition: 0.8s ease;
+}
+.contact_con .contact_form{
+	width: 1000px;
+	margin: 50px auto 0;
+	overflow: auto;
+	font-family: "ubuntu",sans-serif;
+}
+.contact_con .contact_form h2{
+	font-size: 29px;
+	margin-bottom: 30px;
+	color: #9352b3;
+}
+.contact_con .contact_form form input{
+	display: block;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 22px;
+	outline: none;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.contact_con .contact_form form textarea{
+	width: 100%;
+	height: 180px;
+	padding: 12px;
+	outline: none;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #d6d6d6;
+}
+.contact_con .contact_form form input[type="submit"]{
+	width: 180px;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 15px;
+	cursor: pointer;
+	outline: none;
+	letter-spacing: 1.2px;
+	background-color: #8e26c0;
+	transition: 0.3s;
+}
+.contact_con .contact_form form input[type="submit"]:hover{
+	background-color: #66128f;
+	transition: 0.6s ease-out 0s;
+}
+.contact_con .contact_form form input:hover,.contact_form form textarea:hover{
+	border: 1px solid #781ea3;
+	transition: 0.6s ease-in;
+}
+.contact_con .contact_form form input[type="text"]:focus,form input[type="email"]:focus,.contact_form form textarea:focus{
+	border: 1px solid #781ea3;
+}
+
+
+/*Footer*/
+footer{
+	padding: 50px 0 20px;
+	float: left;
+	overflow: auto;
+	width: 100%;
+	border-top: 1px solid #eee;
+	background-color: #eeeeee2e;
+}
+footer .main_footer{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+footer .main_footer .main_footer_column{
+	/* width: 300px;
+	float: left*/;
+	margin: 10px 15px; 
+	text-align: center;
+	flex: 1;
+}
+footer .main_footer .main_footer_column h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #000;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+	color: #8600c7;
+}
+footer .main_footer .main_footer_column:first-child p{
+	font-family: "Ubuntu" ,sans-serif;
+	color: #000;
+	letter-spacing: 1.5px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul{
+	margin: 30px auto;
+	width: 200px;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul li{
+	display: inline;
+	margin-left: 25px;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul li a{
+	font-size: 22px;
+	color: #000;
+	transition: 0.3s;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul li:nth-child(1):hover a{
+	color: #3549d5;
+	transition: all 0.3s;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul li:nth-child(2):hover a{
+	color: #007eff;
+	transition: all 0.3s;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul li:nth-child(3):hover a{
+	color: #ff7600;
+	transition: all 0.3s;
+}
+footer .main_footer .main_footer_column:nth-child(2) ul li:nth-child(4):hover a{
+	color: #ff0c00;
+	transition: all 0.3s;
+}
+footer .main_footer .main_footer_column:nth-child(2) .google_play,.apple_store{
+	width: 200px;
+	margin: 10px auto;
+	padding: 15px;
+	overflow: auto;
+	cursor: pointer;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+}
+footer .main_footer .main_footer_column:nth-child(2) .google_play:hover,.apple_store:hover{
+	background-color: #71009687;
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+footer .main_footer .main_footer_column:nth-child(2) .google_play:hover p,.apple_store:hover p{
+	color: #fff;
+	transition: 0.8s ease-in-out;
+}
+footer .main_footer .main_footer_column:nth-child(2) .google_play:hover i,.apple_store:hover i{
+	color: #fff;
+	transition: 0.8s ease-in-out;
+}
+footer .main_footer .main_footer_column:nth-child(2) .google_play i,.apple_store i{
+	float: left;
+	font-size: 22px;
+	color: #000;
+	overflow: auto;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+footer .main_footer .main_footer_column:nth-child(2) .google_play p,.apple_store p{
+	margin-left: 5px;
+	overflow: auto;
+	line-height: 23px;
+	color: #000;
+	font-size: 12px;
+	font-family: "Ubuntu",sans-serif;
+}
+footer .main_footer .main_footer_column:nth-child(3) ul li{
+	list-style: none;
+	text-decoration: none;
+	margin-bottom: 13px;
+}
+footer .main_footer .main_footer_column:nth-child(3) ul li a{
+	font-family: "Ubuntu" ,sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+}
+footer .main_footer .main_footer_column:nth-child(3) ul li a:hover{
+	color: #9352b3;
+	transition: 0.2s ease-in;
+}
+footer .sub_footer{
+	border-top: 1px solid #eee;
+	width: 100%;
+	overflow: auto;
+}
+footer .sub_footer .sub_footer_column{
+	padding: 15px;
+	text-align: right;
+	font-family: "Ubuntu",sans-serif;
+	letter-spacing: 1.8px;
+	color: #afafaf;
+}
+
+/*span*/
+span{
+	color: #9352b3;
+	font-weight: 600;
+}

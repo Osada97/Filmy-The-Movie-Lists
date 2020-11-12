@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&display=swap');
+
+.filmy_login{
+	margin: 100px 0;
+	padding: 50px 20px;
+	overflow: auto;
+}
+.filmy_login .filmy_pic_column{
+	width: 820px;
+	float: left;
+	margin-right: 25px;
+}
+.filmy_login .filmy_lg_form{
+	width: 560px;
+	float: left;
+}
+.filmy_login .filmy_lg_form .form_header{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 35px;
+	font-family: "Ubuntu",sans-serif;
+	letter-spacing: 2px;
+}
+.filmy_login .filmy_lg_form form label{
+	display: block;
+	font-family: "Ubuntu" ,sans-serif;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.filmy_login .filmy_lg_form form input{
+	width: 100%;
+	font-family: "Ubuntu" ,sans-serif;
+	padding: 8px;
+	font-size: 14px;
+	border: 1px solid #cbc7c7;
+	outline: none;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+.filmy_login .filmy_lg_form form input:hover{
+	border-color: #710096;
+	transition: 0.5s ease-in;
+}
+.filmy_login .filmy_lg_form form input:focus{
+	border-color: #710096;
+}
+.filmy_login .filmy_lg_form form input[type="submit"]{
+	margin-top: 15px;
+	width: 150px;
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: #9352b3;
+	color: #fff;
+	font-weight: 600;
+}
+.filmy_login .filmy_lg_form form p:nth-child(3){
+	float: left;
+}
+.filmy_login .filmy_lg_form form p:last-child{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-family: "Ubuntu" ,sans-serif;
+	font-size: 14px;
+	letter-spacing: 1.3px;
+}
+.filmy_login .filmy_lg_form form p:last-child a{
+	text-decoration: none;
+	font-weight: 600;
+}
+.error{
+	margin-bottom: 20px;
+	font-family: "Ubuntu" ,sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	text-indent: 20px;
+	color: red;
+	text-transform: capitalize;
+}

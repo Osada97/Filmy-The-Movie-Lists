@@ -1,0 +1,67 @@
+@media screen and (max-width: 1021px){
+	.main_container h1 {
+		letter-spacing: 1px;
+	}
+}
+@media screen and (max-width: 854px){
+	.main_container h1 {
+		font-size: 300px;
+	}
+	.login_form{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 706px){
+	.main_container h1 {
+		font-size: 250px;
+	}
+}
+@media screen and (max-width: 592px){
+	.main_container h1 {
+		font-size: 200px;
+	}
+}
+@media screen and (max-width: 476px){
+	.main_container h1 {
+		font-size: 150px;
+	}
+}
+@media screen and (max-width: 362px){
+	.main_container h1 {
+		font-size: 100px;
+	}
+	.login_form h2{
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 284px){
+	.login_form h2{
+		font-size: 25px;
+	}
+	.login_form form input[type="submit"]{
+		width: 35%;
+	}
+}
+@media screen and (max-width: 267px){
+	.main_container h1 {
+		font-size: 90px;
+	}
+}
+@media screen and (max-width: 227px){
+	.main_container h1 {
+		font-size: 70px;
+	}
+	.login_form form input[type="submit"]{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 187px){
+	.main_container h1 {
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 134px){
+	.main_container h1 {
+		font-size: 30px;
+	}
+}

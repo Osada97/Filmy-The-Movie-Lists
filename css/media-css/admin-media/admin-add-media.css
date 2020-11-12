@@ -1,0 +1,41 @@
+@media screen and (max-width: 1100px){
+	.add_movie .add_movie_column{
+		width: 90%;
+	}
+	.add_movie .add_movie_column .add_details_form, .add_story_line{
+		margin-left: 0;
+	}
+	.add_movie .add_movie_column .add_details_form .download_path p{
+		width: 45%;
+	} 
+}
+@media screen and (max-width: 764px){
+	.add_movie .add_movie_column .add_details_form .download_path p{
+		width: 100%;
+	}
+	.add_movie .add_movie_column .add_details_form .download_path p input[type='url']{
+		width: 82%;
+	}
+}
+@media screen and (max-width: 524px){
+	.add_movie .add_movie_column{
+		width: 100%;
+	} 
+}
+@media screen and (max-width: 306px){
+	.add_movie .add_movie_column{
+		width: 100%;
+	}
+	.add_movie .add_movie_column{
+		padding: 25px 10px;
+	}
+	.add_movie .movie_cover label, .movie_poster label{
+		width: 100%;
+		margin: 5px;
+	} 
+}
+@media screen and (max-width: 256px){
+	.add_movie .pic_upload_sec button{
+		width: 90%;
+	}
+}

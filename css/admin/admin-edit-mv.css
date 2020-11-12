@@ -1,0 +1,32 @@
+.add_movie .uploaded_row .pre_up{
+	overflow: auto;
+	float: left;
+	margin: 25px 0; 
+	width: 100%;
+}
+.add_movie .uploaded_row .pre_up .column_poster{
+	overflow: auto;
+	width: 23%;
+	margin-right: 50px; 
+	margin-left: 50px;
+	padding: 20px;
+	float: left;
+	text-align: center;
+}
+.add_movie .uploaded_row .pre_up .column_cover{
+	overflow: auto;
+	width: 66%;
+	padding: 20px;
+	margin-right: 50px;
+	float: left;
+	text-align: right;
+}
+.add_movie .uploaded_row .pre_up .column_poster img{
+	width: 94%;
+	margin: 0 auto;
+	filter: grayscale(10%);
+}
+.add_movie .uploaded_row .pre_up .column_cover img{
+	width: 80%;
+	filter: grayscale(10%);
+}

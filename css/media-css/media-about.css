@@ -1,0 +1,10 @@
+@media screen and (max-width: 1300px){
+	.about_our .about_our_main{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 950px){
+	.about_our .about_our_main .our_main_column:first-child{
+		display: none;
+	}
+}

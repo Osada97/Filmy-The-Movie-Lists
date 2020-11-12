@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Filmy</title>
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/signin.css">
+	<script src="https://kit.fontawesome.com/4f6c585cf2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<header>
+		<div class="column">
+			<h1>Filmy</h1>
+		</div><!--column-->
+		<div class="column">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="movies.html">Movies</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</div><!--column-->
+		<div class="column">
+			<div class="lg_but">
+				<a href="signin.html"><button>Sign In</button></a>
+				<a href="signup.html"><button>Sign Up</button></a>
+			</div><!--lg_but-->
+		</div><!--column-->
+	</header><!--header-->
+
+
+	<section class="filmy_login">
+		<div class="filmy_pic_column">
+			<img src="img/svg/login.jpg">
+		</div><!--filmy_pic_column-->
+		<div class="filmy_lg_form">
+			<div class="form_header">
+				<h2>Sign In</h2>
+			</div>
+
+			<div class="error">
+				<!--For Js Form Validation-->	
+			</div>
+
+			<form onsubmit="return login_vali();">
+				<p>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" autofocus>
+				</p>
+				<p>
+					<label for="pw">Password:</label>
+					<input type="password" name="pw" id="pw">
+				</p>
+				<p>
+					<input type="submit" value="Sign In">
+				</p>
+				<p>Don't You Have An Account, <a href="signup.html">Sign Up</a> Here.</p>
+			</form>
+		</div><!--filmy_lg_form-->
+	</section><!--filmy_login-->
+
+
+	<footer>
+		<div class="main_footer">
+			<div class="main_footer_column">
+				<h4>Filmy</h4>
+				<p>Filmy Is Provide Best Quality Movies And Filmy Has Largest Data Base About Movies And We Provide Free Subtitles. <span>Filmy</span> Is Your Movie Theater.</p>
+			</div>
+			<div class="main_footer_column">
+				<h4>Social Links</h4>
+				<ul>
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				</ul>
+				<div class="google_play">
+					<i class="fab fa-google-play"></i>
+					<p>Download It From Google Play</p>
+				</div>
+				<div class="apple_store">
+					<i class="fab fa-apple"></i>
+					<p>Download It From Apple Store</p>
+				</div>
+			</div>
+			<div class="main_footer_column">
+				<h4>Useful Links</h4>
+
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="movies.html">Movies</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="signin.html">Sign In</a></li>
+					<li><a href="signup.html">Sign Up</a></li>
+				</ul>
+			</div>
+		</div><!--main_footer-->
+		<div class="sub_footer">
+			<div class="sub_footer_column">
+				<h5>© Copyright 2020 <span>Osada Manohara</span> All Rights Reserved</h5>
+			</div>		
+		</div><!--sub_footer-->
+	</footer>
+	
+	<script src="js/signinvali.js"></script>
+
+</body>
+</html>
